@@ -15,6 +15,15 @@ conda activate AAG_FP
 pip install -r requirements.txt
 ```
 
+## Download the checkpoint
+Coming soon...
+
+## Run the framework
+This demo example uses the sample floor plan images, you can use your own floor plan images by putting them inside the `FP_sample_images` folder, images with extension ".jpeg",".jpg" or ".png" are all accepted.
+```
+python main.py
+```
+
 ## Download the data
 Coming soon...
 
