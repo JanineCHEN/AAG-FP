@@ -4,7 +4,7 @@ This project presents a framework for extracting attributed adjacency graphs (AA
 # Dependencies
 - Python 3.6 or 3.7
 - opencv-python
-- sikit-image
+- scikit-image
 - pytorch
 - torchvision
 - detectron2
