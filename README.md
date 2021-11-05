@@ -1,5 +1,5 @@
 # AAG-FP
-This project present a framework for attributed adjacency graph (AAG) extraction from floor plan images
+This project presents a framework for extracting attributed adjacency graphs (AAGs) from floor plan images.
 
 # Dependencies
 - Python 3.6 or 3.7
