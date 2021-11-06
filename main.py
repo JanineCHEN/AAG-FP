@@ -12,8 +12,6 @@ import numpy as np
 import pandas as pd
 import networkx as nx
 
-import requests
-
 from graph_extractor import graph_extractor
 from methods import *
 
