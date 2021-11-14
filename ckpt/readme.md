@@ -2,8 +2,9 @@ To download the required checkpoints, please go to <a href="https://drive.google
 
 Then put all the downloaded files under the `ckpt` directory. You should have a directory tree like this:
 
+```
+./ckpt
 
-└── ckpt
     ├── CubiCasa5k
     │   └── model_best_val_loss_var.pkl
     ├── CVCFP_stairs
@@ -37,3 +38,4 @@ Then put all the downloaded files under the `ckpt` directory. You should have a 
         ├── text_seg_model_681epos.pt
         ├── text_seg_optim_590epos.pt
         └── text_seg_optim_681epos.pt
+```
