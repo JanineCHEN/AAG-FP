@@ -2,8 +2,8 @@ To download the required checkpoints, please go to <a href="https://drive.google
 
 Then put all the downloaded files under the `ckpt` directory. You should have a directory tree like this:
 
-./ckpt
-└── CubiCasa5k
+
+└── ckpt
     ├── CubiCasa5k
     │   └── model_best_val_loss_var.pkl
     ├── CVCFP_stairs
