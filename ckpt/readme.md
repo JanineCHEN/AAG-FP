@@ -1,4 +1,5 @@
-To download the required checkpoints, please go to <a href="https://drive.google.com/drive/folders/1SjmCiK08-gpNGN8TZX5_kaErGv05c0Sg?usp=sharing">LINK</a>
+To download the required checkpoints, please go to <a href="https://drive.google.com/drive/folders/1SjmCiK08-gpNGN8TZX5_kaErGv05c0Sg?usp=sharing">LINK</a>.
+
 Then put all the files under the `ckpt` directory. You should have a directory tree like this:
 
 .
