@@ -9,6 +9,7 @@ This project presents a framework for extracting attributed adjacency graphs (AA
 - scikit-image
 - pytorch
 - torchvision
+  networkx
 - Other required packages are summarized in `requirements.txt`.
 
 # Quick start
