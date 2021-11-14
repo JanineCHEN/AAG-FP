@@ -5,13 +5,9 @@ Then put all the files under the `ckpt` directory. You should have a directory t
 .
 
 └── ckpt
-
     ├── CubiCasa5k
-    
     │   └── model_best_val_loss_var.pkl
-    
     ├── CVCFP_stairs
-    
     │   ├── 1
     │   │   └── model_final.pth
     │   ├── 2
