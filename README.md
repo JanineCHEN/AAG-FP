@@ -26,7 +26,11 @@ pip install -r requirements.txt
 For downloading the checkpoints, please refer to <a href="https://github.com/JanineCHEN/AAG-FP/tree/main/ckpt">ckpt</a>.
 
 ## Run the framework
-This demo example uses the sample floor plan images, you can use your own floor plan images by putting them inside the `FP_sample_images` folder, images with extension ".jpeg",".jpg" or ".png" are all accepted.
+This demo example uses the sample floor plan images in `FP_sample_images`.
+
+you can use your own floor plan images by putting them inside the `FP_sample_images` folder, images with extension ".jpeg",".jpg" or ".png" are all accepted.
+
+For executing the AAG extractor, please run:
 ```
 python main.py
 ```
