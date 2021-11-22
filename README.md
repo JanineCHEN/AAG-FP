@@ -21,7 +21,7 @@ conda create --name AAG_FP python=3.7
 conda activate AAG_FP
 pip install -r requirements.txt
 ```
-
+  
 ## Download the checkpoint
 For downloading the checkpoints, please refer to <a href="https://github.com/JanineCHEN/AAG-FP/tree/main/ckpt">ckpt</a>.
 
@@ -35,7 +35,7 @@ For executing the AAG extractor, please run:
 python main.py
 ```
 
-## Download the data
+# Download the data
 For downloading the dataset, please refer to <a href="https://github.com/JanineCHEN/AAG-FP/tree/main/dataset">dataset</a>.
 
 # Citation
@@ -43,4 +43,4 @@ If you find the code in our research useful, please consider cite:
 Coming soon...
 
 # Acknowledgments
-Part of this code is inspired by <a href="https://github.com/CubiCasa/CubiCasa5k">CubiCasa/CubiCasa5k</a> and <a href="https://github.com/yu45020/Text_Segmentation_Image_Inpainting">yu45020/Text_Segmentation_Image_Inpainting</a>
+Part of the code is inspired by <a href="https://github.com/CubiCasa/CubiCasa5k">CubiCasa/CubiCasa5k</a> and <a href="https://github.com/yu45020/Text_Segmentation_Image_Inpainting">yu45020/Text_Segmentation_Image_Inpainting</a>.
