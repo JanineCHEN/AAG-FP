@@ -41,3 +41,6 @@ For downloading the dataset, please refer to <a href="https://github.com/JanineC
 # Citation
 If you find the code in our research useful, please consider cite:
 Coming soon...
+
+# Acknowledgments
+Part of this code is inspired by <a href="https://github.com/CubiCasa/CubiCasa5k">CubiCasa/CubiCasa5k</a> and <a href="https://github.com/yu45020/Text_Segmentation_Image_Inpainting">yu45020/Text_Segmentation_Image_Inpainting</a>
