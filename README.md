@@ -17,7 +17,7 @@ This project presents a framework for extracting attributed adjacency graphs (AA
 ```
 git clone https://github.com/JanineCHEN/AAG-FP.git 
 cd ~/AAG_FP/
-conda create --name AAG_FP python=3.7
+conda create --name AAG_FP python=3.6
 conda activate AAG_FP
 pip install -r requirements.txt
 ```
