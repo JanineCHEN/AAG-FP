@@ -37,4 +37,8 @@ Then put all the downloaded files under the `ckpt` directory. You should have a 
         ├── text_seg_model_681epos.pt
         ├── text_seg_optim_590epos.pt
         └── text_seg_optim_681epos.pt
+
+└── floortrans
+    └── models
+        └── model_1427.pth
 ```
