@@ -174,6 +174,8 @@ def graph_extractor(img_dir, output_path):
     model_txt_2.load_state_dict(torch.load("./ckpt/text/text_seg_model_681epos.pt", map_location='cpu'))
     model_txt_2 = model_txt_2.cuda()
     rs = np.arange(0, 180, 45)
+    if not os.path.exists('./Text_Segmentation/test_data/'):
+        os.makedirs('./Text_Segmentation/test_data/')
     for r in rs:
         im_ = rotate(im,r)
         im_txt = Image.fromarray(im_)
