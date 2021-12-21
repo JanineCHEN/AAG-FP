@@ -3,7 +3,7 @@ This project presents a framework for extracting attributed adjacency graphs (AA
 
 # Dependencies
 - Linux environment is recommended
-- Python 3.6 or 3.7
+- Python ≥ 3.6
 - <a href="https://detectron2.readthedocs.io/en/latest/tutorials/install.html">detectron2<a>
 - opencv-python
 - scikit-image
