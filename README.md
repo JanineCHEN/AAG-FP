@@ -2,7 +2,7 @@
 This project presents a framework for extracting attributed adjacency graphs (AAGs) from floor plan images.
 
 # Dependencies
-- Linux environment is recommended
+- Linux or macOS is recommended
 - Python ≥ 3.6
 - <a href="https://detectron2.readthedocs.io/en/latest/tutorials/install.html">detectron2<a> # need to be installed separately
 - <a href="https://pytorch.org/">pytorch<a> # need to be installed separately
