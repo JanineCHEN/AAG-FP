@@ -4,12 +4,8 @@ This project presents a framework for extracting attributed adjacency graphs (AA
 # Dependencies
 - Linux environment is recommended
 - Python ≥ 3.6
-- <a href="https://detectron2.readthedocs.io/en/latest/tutorials/install.html">detectron2<a>
-- opencv-python
-- scikit-image
-- pytorch
-- torchvision
-- networkx
+- <a href="https://detectron2.readthedocs.io/en/latest/tutorials/install.html">detectron2<a> # need to be installed separately
+- <a href="https://pytorch.org/">pytorch<a> # need to be installed separately
 - Other required packages are summarized in `requirements.txt`.
 
 # Quick start
@@ -17,8 +13,9 @@ This project presents a framework for extracting attributed adjacency graphs (AA
 ```
 git clone https://github.com/JanineCHEN/AAG-FP.git 
 cd ~/AAG_FP/
-conda create --name AAG_FP python=3.6
+conda create --name AAG_FP python=3.6 # can use either anaconda or virtualenvwrapper to create the virtal environment
 conda activate AAG_FP
+# detectron2 and pytorch need to be installed separately
 pip install -r requirements.txt
 ```
   
