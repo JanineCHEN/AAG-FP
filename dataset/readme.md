@@ -1,4 +1,4 @@
-For downloading the dataset, please refer to `coming soon`.
+For downloading the dataset, please refer to [THIS LINK](https://forms.gle/V7FEZDAKFvfmAxEv8).
 
 The `AAG-FP_metadata.csv` provides metadata of the dataset, including urls of original floorplans and projects, as well as the architectural categories of the projects.
 
