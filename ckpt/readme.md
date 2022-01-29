@@ -1,6 +1,6 @@
-To download the required checkpoints, please go to `coming soon`.
+To download the required checkpoints, please go to [THIS LINK](https://drive.google.com/drive/folders/1WFAHaEXwefBslwtSQWUVEwFi8FTtuu5c?usp=sharing).
 
-Then put all the downloaded files under the `ckpt` directory. You should have a directory tree like this:
+Then put all the downloaded files under the `ckpt` directory, except the checkpoint under folder `floortrans/models`, which should be manually moved to the designated location. You should have a directory tree like this:
 
 ```
 └── ckpt
@@ -37,8 +37,9 @@ Then put all the downloaded files under the `ckpt` directory. You should have a 
         ├── text_seg_model_681epos.pt
         ├── text_seg_optim_590epos.pt
         └── text_seg_optim_681epos.pt
-
+...
 └── floortrans
     └── models
         └── model_1427.pth
+        ...
 ```
