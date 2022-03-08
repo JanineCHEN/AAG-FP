@@ -40,4 +40,4 @@ If you find the code in our research useful, please consider cite:
 Coming soon...
 
 # Acknowledgments
-Part of the code is inspired by <a href="https://github.com/CubiCasa/CubiCasa5k">CubiCasa/CubiCasa5k</a> and <a href="https://github.com/yu45020/Text_Segmentation_Image_Inpainting">yu45020/Text_Segmentation_Image_Inpainting</a>.
+Part of the code is inspired by <a href="https://github.com/CubiCasa/CubiCasa5k">CubiCasa/CubiCasa5k</a> and <a href="https://github.com/yu45020/Text_Segmentation_Image_Inpainting">yu45020/Text_Segmentation_Image_Inpainting</a>. The computational work for this project was partially performed on resources of the National Supercomputing Centre, Singapore (https://www.nscc.sg).
