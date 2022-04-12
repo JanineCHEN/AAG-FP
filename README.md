@@ -1,5 +1,6 @@
 # AAG-FP
 This project presents a framework for extracting attributed adjacency graphs (AAGs) from floor plan images.
+<a href="https://caadria2022.org/wp-content/uploads/2022/04/42-1.pdf">paper<a>
 
 # Dependencies
 - Linux or macOS is required
