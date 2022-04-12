@@ -37,7 +37,17 @@ For downloading the dataset, please refer to <a href="https://github.com/JanineC
 
 # Citation
 If you find the code in our research useful, please consider cite:
-Coming soon...
+```
+@inproceedings{chen_graph_2022,
+	title = {Robust attributed adjacency graph extraction using floor plan images},
+	volume = {2},
+	booktitle = {{POST-CARBON}, {Proceedings} of the 27th {International} {Conference} of the {Association} for {Computer}-{Aided} {Architectural} {Design} {Research} in {Asia}},
+	publisher = {CUMINCAD},
+	author = {Chen, Jielin and Stouffs, Rudi},
+	year = {2022},
+	pages = {385--394},
+}
+```
 
 # Acknowledgments
 Part of the code is inspired by <a href="https://github.com/CubiCasa/CubiCasa5k">CubiCasa/CubiCasa5k</a> and <a href="https://github.com/yu45020/Text_Segmentation_Image_Inpainting">yu45020/Text_Segmentation_Image_Inpainting</a>. The computational work for this project was partially performed on resources of the National Supercomputing Centre, Singapore (https://www.nscc.sg).
