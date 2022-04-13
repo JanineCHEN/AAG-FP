@@ -43,7 +43,6 @@ If you find the code in our research useful, please consider cite:
 	title = {Robust attributed adjacency graph extraction using floor plan images},
 	volume = {2},
 	booktitle = {{POST-CARBON}, {Proceedings} of the 27th {International} {Conference} of the {Association} for {Computer}-{Aided} {Architectural} {Design} {Research} in {Asia}},
-	publisher = {CUMINCAD},
 	author = {Chen, Jielin and Stouffs, Rudi},
 	year = {2022},
 	pages = {385--394},
