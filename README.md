@@ -36,7 +36,7 @@ python main.py
 For downloading the dataset, please refer to <a href="https://github.com/JanineCHEN/AAG-FP/tree/main/dataset">dataset</a>.
 
 # Citation
-If you find the code in our research useful, please consider cite:
+If you find the code and data of our research useful, please consider citing:
 ```
 @inproceedings{chen_graph_2022,
 	title = {Robust attributed adjacency graph extraction using floor plan images},
