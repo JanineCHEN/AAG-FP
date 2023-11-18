@@ -181,7 +181,7 @@ def wall_smooth(wall,crack_triangle_ratio):
 
     if wall.boundary.geom_type == 'MultiLineString':
         is_simple = False
-        p_list = list(spline.coords for spline in wall.boundary)
+        p_list = list(spline.coords for spline in wall.boundary.geoms)
         # deal with exterior
         p_list_s_ex = []
         j = 0
@@ -297,39 +297,44 @@ def vectorization_mask(img):
     aff = Affine(1, 0, 1, 0, -1, 0) # Adjust flip and symmetry
     mask = img == 255
     
-    shapes = features.shapes(img, mask=mask, transform = aff)
+    if True in np.unique(mask):
+        shapes = features.shapes(img, mask=mask, transform = aff)
 
-    area = 0
-    i = 0
-    for s, v in shapes:
-        ## polygon without holes
-        if np.array(s['coordinates']).shape[0] == 1:
-            polygon = sPolygon(np.array(s['coordinates']).squeeze())
-            if polygon.area > area:
-                area = polygon.area
-                mask_background_idx = i
-            i += 1
-        ## polygon with holes
-        if np.array(s['coordinates']).shape[0] != 1:
-            exterior = np.array(np.array(s['coordinates'])[0]).squeeze()
-            interior = [np.array(p).squeeze() for p in np.array(s['coordinates'])[1:]]
-            polygon = sPolygon(exterior, interior)
-            # for p in np.array(s['coordinates']):
-                # polygon = Polygon(np.array(p).squeeze())
-            if polygon.area > area:
-                area = polygon.area
-                mask_background_idx = i
-            i += 1
+        area = 0
+        i = 0
+        for s, v in shapes:
+            ## polygon without holes
+            if np.array(s['coordinates']).shape[0] == 1:
+                polygon = sPolygon(np.array(s['coordinates']).squeeze())
+                if polygon.area > area:
+                    area = polygon.area
+                    mask_background_idx = i
+                i += 1
+            ## polygon with holes
+            if np.array(s['coordinates']).shape[0] != 1:
+                exterior = np.array(np.array(s['coordinates'])[0]).squeeze()
+                interior = [np.array(p).squeeze() for p in np.array(s['coordinates'])[1:]]
+                polygon = sPolygon(exterior, interior)
+                # for p in np.array(s['coordinates']):
+                    # polygon = Polygon(np.array(p).squeeze())
+                if polygon.area > area:
+                    area = polygon.area
+                    mask_background_idx = i
+                i += 1
 
-    mask_area = area
+        mask_area = area
 
-    shapes = features.shapes(img, mask=mask, transform = aff)
-    mask_background = features.rasterize(
-            ((g, 255) for i, (g, v) in enumerate(shapes) if i == mask_background_idx), 
-            all_touched=True, 
-            out_shape=(h,w),
-            transform = aff,
-            )
+        shapes = features.shapes(img, mask=mask, transform = aff)
+        mask_background = features.rasterize(
+                ((g, 255) for i, (g, v) in enumerate(shapes) if i == mask_background_idx), 
+                all_touched=True, 
+                out_shape=(h,w),
+                transform = aff,
+                )
+        
+    if not True in np.unique(mask):
+        mask_background = np.zeros_like(img)
+        mask_area = 0
 
     return mask_background, mask_area
 
