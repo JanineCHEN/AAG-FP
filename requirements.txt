@@ -3,6 +3,7 @@ affine>=2.3.0
 appdirs==1.4.4
 attrs>=20.3.0
 backcall==0.2.0
+black==21.4b2
 cachetools>=4.2.1
 certifi>=2020.12.5
 click>=7.1.2
