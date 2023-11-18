@@ -7,6 +7,7 @@ This project presents a framework for extracting attributed adjacency graphs (AA
 - <a href="https://detectron2.readthedocs.io/en/latest/tutorials/install.html">detectron2<a> # need to be installed separately, `detectron2==0.6+cu111` is used in the experiment.
 - <a href="https://pytorch.org/">pytorch<a> # need to be installed separately, `torch==1.9.1+cu111` is used in the experiment.
 - Other required packages are summarized in `requirements.txt`.
+- CUDA-supported GPU with at least 8 GB Memory Size is required.
 
 # Quick start
 ## Download the repository and install the dependencies 
